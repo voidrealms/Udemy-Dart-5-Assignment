@@ -1,0 +1,12 @@
+void printValue(int number){
+  var items =[];
+  for(int i=0;i<=number;i++){
+    print("index ${i}");
+
+    items.add(i);
+
+  }
+  if(items.length/2==0){
+    print("half way there");
+  }
+  };
